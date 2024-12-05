@@ -1,0 +1,1 @@
+web: gunicorn config.w sgi --log-file -
