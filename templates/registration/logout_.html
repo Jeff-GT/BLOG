@@ -3,11 +3,15 @@
 {% block title %}Log Out{% endblock title %}
 
 {% block content %}
-<h1>Logging Out</h1>
-
-<form method="POST"> 
-  {% csrf_token %}
-  <label for="logout">Are you sure you want to log out?</label>
-  <input type="submit" class="btn btn-sucess" value="logout">
-</form>
+<div class="reset-success text-white">
+  <h1>Logging Out</h1>
+  
+  <form method="POST">
+    {% csrf_token %}
+    <label for="logout">Are you sure you want to log out?</label>
+    <div>
+      <button type="submit" class="btn btn-danger bttn logout-btn">GET ME OUT!</button>
+    </div>
+  </form>
+</div>
 {% endblock content %}

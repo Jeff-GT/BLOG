@@ -1,0 +1,12 @@
+body
+{
+  background-color: rgb(47, 47, 47);
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.home_content{
+  color: white;
+  text-align: center;
+}
